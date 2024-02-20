@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Peer-2-Peer Video Communication</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+
+    <div id="videos">
+        <video class="video-player" id="user-1" autoplay playsinline></video>
+        <video class="video-player" id="user-2" autoplay playsinline></video>
+    </div>
+
+    <div class="sdp">
+        <button id="create-offer-btn">Create Offer</button>
+        <label>sdp-offer</label>
+        <textarea id="offer-sdp"></textarea>
+    </div>
+
+    <div class="sdp">
+        <button id="create-answer-btn">Create Answer</button>
+        <label>sdp-answer</label>
+        <textarea id="answer-sdp"></textarea>
+    </div>
+
+    <div class="sdp">
+        <button id="add-answer-btn">Add Answer</button>
+    </div>
+    
+
+</body>
+<script src='main.js'></script>
+</html>
